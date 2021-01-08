@@ -3567,10 +3567,11 @@ tbody.collapse.in {
 }
 
 .tab-content > .tab-pane {
-  display: none;
+  display: block;
+  visibility: hidden;
 }
 .tab-content > .active {
-  display: block;
+  visibility: visible;
 }
 
 .nav-tabs .dropdown-menu {
