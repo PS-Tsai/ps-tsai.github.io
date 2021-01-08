@@ -3566,9 +3566,14 @@ tbody.collapse.in {
   }
 }
 
+.tab-content {
+  display: flex;
+}
+
 .tab-content > .tab-pane {
   display: block;
   visibility: hidden;
+
 }
 .tab-content > .active {
   visibility: visible;
